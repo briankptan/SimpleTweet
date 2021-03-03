@@ -13,10 +13,10 @@
         android:icon="@drawable/ic_launcher_twitter"
         android:label="TweetMe"
         android:theme="@style/AppBaseTheme">
-        <activity android:name=".TimelineActivity"></activity>
+        <activity android:name=".ComposeActivity"></activity>
+        <activity android:name=".TimelineActivity" />
         <activity
             android:name=".LoginActivity"
-
             android:theme="@style/AppBaseTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
